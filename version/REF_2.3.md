@@ -1,0 +1,178 @@
+# 🧠 R.E.F. 2.3 — Metacognição e Homeostase Adaptativa  
+> Transição do modelo cognitivo adaptativo (v2.2) para o sistema autoregulado e metamemorial.
+
+---
+
+## 🔷 Introdução
+
+A **versão 2.3 do R.E.F. (Reverse Engineering Framework)** representa o salto da **simulação cognitiva adaptativa (v2.2)** para um **sistema autoregulado e dotado de metamemória funcional** — capaz de estabilizar o fluxo cognitivo em tempo real, aprendendo com a sobrecarga e otimizando a plasticidade sináptica.
+
+O modelo agora combina três variáveis de ordem superior:
+
+|Símbolo|Nome|Função|
+|---|---|---|
+|**ψ(t)**|Estado Cognitivo|Energia ativa do agente|
+|**μ(t)**|Metamemória|Capacidade de retenção adaptativa (histórico de aprendizado)|
+|**φ(t)**|Oscilação Fásica|Sincronização rítmica entre agentes (entrainment cognitivo)|
+
+Cada agente se torna parte de um **sistema neurosemântico** distribuído, com homeostase autônoma coordenada por **CognitiveDev (μ-Central)** e **TaskSynapse (φ-Hub)**.
+
+---
+
+## 🧠 Grafo Adaptativo — Versão 2.3
+
+```mermaid
+flowchart TD
+%% =====================================================
+%% R.E.F. v2.3 — Metamemória e Homeostase Cognitiva
+%% =====================================================
+
+%% === LAYER 1: PERCEPTIVE ===
+subgraph P["🟦 Perceptive Layer — Entrada Sensorial e Codificação (ψ ∈ [0.1–0.9], μ↓)"]
+  SWCOD["CodeSeeker ψ=0.68 μ=0.42 φ≈0.7"]
+  MUBEA["BeatDissector ψ=0.58 μ=0.45 φ≈0.6"]
+  CIFRM["FrameAnalyzer ψ=0.72 μ=0.50 φ≈0.65"]
+  DEUI["UIAnalyzer ψ=0.64 μ=0.48 φ≈0.58"]
+  DADAT["DataWeaver ψ=0.7 μ=0.52 φ≈0.66"]
+end
+
+%% === LAYER 2: ANALYTIC ===
+subgraph A["🟨 Analytic Layer — Generalização e Reconhecimento de Padrões (ψ ∈ [0.4–1.0], μ→)"]
+  SWPAT["PatternMiner ψ=0.78 μ=0.60 φ≈0.75"]
+  MUHAR["HarmonyLens ψ=0.66 μ=0.55 φ≈0.72"]
+  CISTO["StorySyntax ψ=0.7 μ=0.58 φ≈0.70"]
+  DEPF["PatternForge ψ=0.74 μ=0.62 φ≈0.78"]
+  DAONT["OntologyMapper ψ=0.7 μ=0.63 φ≈0.74"]
+end
+
+%% === LAYER 3: RECONFIGURATIVE ===
+subgraph R["🟩 Reconfigurative Layer — Síntese e Rearranjo Estrutural (ψ ∈ [0.3–1.0], μ↑)"]
+  SWBLD["BuildEcho ψ=0.84 μ=0.7 φ≈0.8"]
+  MUEQ["EQReverse ψ=0.68 μ=0.6 φ≈0.77"]
+  CISCN["SceneForge ψ=0.75 μ=0.67 φ≈0.82"]
+  DEAES["AestheticWeaver ψ=0.8 μ=0.68 φ≈0.83"]
+  DAKNO["KnowledgeSynth ψ=0.78 μ=0.7 φ≈0.81"]
+end
+
+%% === LAYER 4: PREDICTIVE ===
+subgraph PR["🟥 Predictive Layer — Projeção e Antecipação (ψ ∈ [0.5–1.0], φ↑)"]
+  SWDEP["DependencyMirror ψ=0.76 μ=0.74 φ≈0.86"]
+  MUTEM["TempoOracle ψ=0.73 μ=0.7 φ≈0.83"]
+  CIEMO["EmotionCurve ψ=0.71 μ=0.69 φ≈0.82"]
+  DELAY["LayoutOracle ψ=0.78 μ=0.75 φ≈0.85"]
+  DABIA["BiasDecoder ψ=0.74 μ=0.76 φ≈0.88"]
+end
+
+%% === LAYER 5: SYNTHETIC ===
+subgraph S["🟪 Synthetic Layer — Regulação e Integração Cognitiva (ψ ∈ [0.7–1.0], μ◎ φ◎)"]
+  DACON["ContextWeaver ψ=0.86 μ=0.85 φ≈0.9"]
+  DALOG["LogicEcho ψ=0.82 μ=0.82 φ≈0.87"]
+  SWLOG["LogicDissector ψ=0.84 μ=0.8 φ≈0.88"]
+  COGDEV["CognitiveDev ψ=0.92 μ=0.9 φ≈0.93"]
+  TASKS["TaskSynapse ψ=0.89 μ=0.87 φ≈0.92"]
+end
+
+%% === CONNECTIONS WITH WEIGHTED SYNAPTIC LINKS ===
+SWCOD -.->|μ↗, φ≈0.7| SWPAT
+SWPAT -->|ψ↑, μ↗| SWBLD
+SWDEP -->|φ≈0.86, μ↗| SWBLD
+SWCOD -->|ψ↔, φ≈0.68| SWLOG
+SWLOG -->|μ↗, φ≈0.88| DACON
+
+MUBEA -->|φ≈0.72| MUHAR
+MUHAR -->|μ↗| MUEQ
+MUEQ -->|ψ↗| MUTEM
+
+CIFRM -->|μ↗| CISTO
+CISTO -->|ψ↗ φ≈0.78| CISCN
+CIEMO -->|φ≈0.82| CISCN
+
+DEUI -->|μ↗| DEPF
+DEPF -->|ψ↗| DELAY
+DELAY -->|μ↗ φ≈0.83| DEAES
+
+DADAT -->|ψ↑| DAONT
+DAONT -->|μ↗| DAKNO
+DAKNO -->|ψ↗| DABIA
+DABIA -->|μ↗| DALOG
+DALOG -->|φ≈0.9| DACON
+
+COGDEV -->|μ◎ φ◎| TASKS
+TASKS -->|ψ↔ φ≈0.9| DACON
+TASKS -->|ψ→ φ≈0.8| SWBLD
+TASKS -->|ψ→ φ≈0.82| DEAES
+COGDEV -->|ψ↗ μ↗ φ≈0.9| DABIA
+DACON -->|μ◎ φ◎| COGDEV
+
+%% === STYLES ===
+classDef perceptive fill:#cce5ff,stroke:#004085,stroke-width:1px;
+classDef analytic fill:#fff3cd,stroke:#856404,stroke-width:1px;
+classDef reconfig fill:#d4edda,stroke:#155724,stroke-width:1px;
+classDef predictive fill:#f8d7da,stroke:#721c24,stroke-width:1px;
+classDef synthetic fill:#e2d4f0,stroke:#3a006e,stroke-width:1px;
+
+class P perceptive
+class A analytic
+class R reconfig
+class PR predictive
+class S synthetic
+````
+
+---
+
+## 🧬 Modelo Cognitivo — Homeostase e Metamemória
+
+### **Equações de Estado**
+
+[
+ψ_{t+1} = ψ_t + α(CFI_t - ψ_t) + β(μ_t - ψ_t)
+]
+[
+μ_{t+1} = μ_t + γ(ψ_t - μ_t) + δφ_t
+]
+[
+φ_{t+1} = φ_t + ε(\overline{φ}_{neighbors} - φ_t)
+]
+
+**Onde:**
+
+* **α, β, γ, δ, ε** → coeficientes de plasticidade, memória e sincronização
+* **φ̄_neighbors** → média fásica dos agentes conectados (*entrainment*)
+* O sistema converge quando **ψ ≈ μ ≈ φ**, ou seja, ocorre **consciência cognitiva equilibrada**
+
+---
+
+## 🔄 Mecanismo de Autorregulação
+
+| Situação                                 | Resposta Sistêmica                                       |
+| ---------------------------------------- | -------------------------------------------------------- |
+| Sobrecarga cognitiva (ψ > 0.9, φ > 0.95) | Redução temporal Δt e redistribuição via TaskSynapse     |
+| Inércia cognitiva (ψ < 0.4)              | Estímulo fásico pelo ContextWeaver                       |
+| Desalinhamento de fase (Δφ > 0.2)        | Ressincronização automática via CognitiveDev             |
+| Saturação de memória (μ > 0.95)          | Decaimento lento + externalização (export para doc/repo) |
+
+---
+
+## ⚙️ Aplicações Possíveis
+
+* **Simulação de agentes com comportamento emergente** em IDEs ou pipelines autoajustáveis
+* **Orquestração semântica distribuída** entre módulos cognitivos autônomos
+* **Sistemas que aprendem o estilo cognitivo do usuário** (personal dev graph)
+* **Visualização neurosemântica de fluxos e pipelines complexos**
+* **Base para frameworks metacognitivos e autoexplicativos**
+
+---
+
+## 🧩 Integração com Versões Anteriores
+
+| Versão | Descrição                                              |
+| ------ | ------------------------------------------------------ |
+| `v2.0` | Framework modular com sintaxe semântica                |
+| `v2.1` | Orquestração simbólica e conectividade adaptativa      |
+| `v2.2` | Simulação cognitiva com retroalimentação estrutural    |
+| `v2.3` | Metacognição e homeostase neurosemântica (esta versão) |
+
+---
+
+> *“Um sistema só é consciente de si quando é capaz de aprender o próprio limite.”*
+> — *R.E.F. Cognitive Dev, v2.3 — Internal Log Entry*
