@@ -1,0 +1,174 @@
+# 🧠 R.E.F. 2.2 — Adaptive Cognitive Flow Simulation Framework
+### _Dynamic Cognitive Systems with Temporal Neurosemantic Graphs_
+
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
+[![License](https://img.shields.io/badge/License-CC--BY--SA--4.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Version](https://img.shields.io/badge/version-2.2--adaptive-purple.svg)]()
+[![LangGraph](https://img.shields.io/badge/Compatible-LangGraph-orange.svg)]()
+[![CFI](https://img.shields.io/badge/CFI-Dynamic-green.svg)]()
+
+---
+
+## 🔍 **Visão Geral**
+
+A **versão 2.2** do **R.E.F. (Reverse Engineering Framework)** representa a evolução do modelo 2.1 — de um grafo cognitivo estático para um **sistema cognitivo dinâmico**, no qual cada agente deixa de ser um nó fixo e passa a ser um **nó vivo**, com estado interno variável no tempo:  
+\[
+ψ = ψ(t)
+\]
+
+Cada agente é afetado por:
+
+- 🧠 **CFI(t)** — Índice de Fluxo Cognitivo variável  
+- ⚡ **Δψ** — Variação de estado interno  
+- 🔁 **α** — Taxa de plasticidade sináptica (adaptação)  
+- 🕓 **τ** — Tempo de iteração (ciclo cognitivo)  
+
+---
+
+## 🧩 **Grafo Cognitivo Dinâmico (Mermaid 2.2)**
+
+```mermaid
+flowchart TD
+%% ============================================================
+%% R.E.F. v2.2 — Adaptive Cognitive Flow Simulation Framework
+%% ============================================================
+
+%% === AGENTS WITH DYNAMIC STATES ===
+subgraph P["🟦 Perceptive Layer (ψ ∈ [0.1–0.9])"]
+  SWCOD["CodeSeeker ψ(t)=0.6 Δψ→0.7 α=0.2"]
+  MUBEA["BeatDissector ψ(t)=0.5 Δψ→0.65 α=0.25"]
+  CIFRM["FrameAnalyzer ψ(t)=0.7 Δψ→0.75 α=0.15"]
+  DEUI["UIAnalyzer ψ(t)=0.65 Δψ→0.68 α=0.1"]
+  DADAT["DataWeaver ψ(t)=0.6 Δψ→0.72 α=0.3"]
+end
+
+subgraph A["🟨 Analytic Layer (ψ ∈ [0.4–1.0])"]
+  SWPAT["PatternMiner ψ(t)=0.75 Δψ→0.82 α=0.15"]
+  MUHAR["HarmonyLens ψ(t)=0.55 Δψ→0.7 α=0.25"]
+  CISTO["StorySyntax ψ(t)=0.65 Δψ→0.8 α=0.3"]
+  DEPF["PatternForge ψ(t)=0.7 Δψ→0.77 α=0.18"]
+  DAONT["OntologyMapper ψ(t)=0.6 Δψ→0.74 α=0.28"]
+end
+
+subgraph R["🟩 Reconfigurative Layer (ψ ∈ [0.3–1.0])"]
+  SWBLD["BuildEcho ψ(t)=0.8 Δψ→0.9 α=0.1"]
+  MUEQ["EQReverse ψ(t)=0.6 Δψ→0.72 α=0.2"]
+  CISCN["SceneForge ψ(t)=0.7 Δψ→0.78 α=0.16"]
+  DEAES["AestheticWeaver ψ(t)=0.75 Δψ→0.85 α=0.14"]
+  DAKNO["KnowledgeSynth ψ(t)=0.65 Δψ→0.82 α=0.25"]
+end
+
+subgraph PR["🟥 Predictive Layer (ψ ∈ [0.5–1.0])"]
+  SWDEP["DependencyMirror ψ(t)=0.72 Δψ→0.79 α=0.12"]
+  MUTEM["TempoOracle ψ(t)=0.68 Δψ→0.8 α=0.2"]
+  CIEMO["EmotionCurve ψ(t)=0.6 Δψ→0.77 α=0.3"]
+  DELAY["LayoutOracle ψ(t)=0.73 Δψ→0.82 α=0.18"]
+  DABIA["BiasDecoder ψ(t)=0.66 Δψ→0.81 α=0.22"]
+end
+
+subgraph S["🟪 Synthetic Layer (ψ ∈ [0.6–1.0])"]
+  DACON["ContextWeaver ψ(t)=0.85 Δψ→0.9 α=0.1"]
+  DALOG["LogicEcho ψ(t)=0.78 Δψ→0.84 α=0.12"]
+  SWLOG["LogicDissector ψ(t)=0.8 Δψ→0.88 α=0.09"]
+  COGDEV["CognitiveDev ψ(t)=0.9 Δψ→0.94 α=0.05"]
+  TASKS["TaskSynapse ψ(t)=0.87 Δψ→0.93 α=0.08"]
+end
+
+%% === DYNAMIC COGNITIVE FLOWS (Weighted & Temporal) ===
+SWCOD -- "CFI(t)=0.8 → ψ↑(SWPAT)" --> SWPAT
+SWPAT -- "CFI(t)=0.75 ↻ ψ↔(SWBLD)" --> SWBLD
+SWDEP -- "CFI(t)=0.65 ↻ ψ→(SWBLD)" --> SWBLD
+SWCOD -- "CFI(t)=0.9 ↔ ψ↔(SWLOG)" --> SWLOG
+SWLOG -- "CFI(t)=0.85 ↔ ψ↔(DACON)" --> DACON
+
+MUBEA -- "CFI(t)=0.85 → ψ↑(MUHAR)" --> MUHAR
+MUHAR -- "CFI(t)=0.8 ↻ ψ→(MUEQ)" --> MUEQ
+MUEQ -- "CFI(t)=0.6 ↻ ψ→(MUTEM)" --> MUTEM
+
+CIFRM -- "CFI(t)=0.9 → ψ↑(CISTO)" --> CISTO
+CISTO -- "CFI(t)=0.85 → ψ→(CISCN)" --> CISCN
+CIEMO -- "CFI(t)=0.7 ↔ ψ↔(CISCN)" --> CISCN
+
+DEUI -- "CFI(t)=0.88 → ψ↑(DEPF)" --> DEPF
+DEPF -- "CFI(t)=0.78 → ψ→(DELAY)" --> DELAY
+DELAY -- "CFI(t)=0.9 ↔ ψ↔(DEAES)" --> DEAES
+
+DADAT -- "CFI(t)=0.9 → ψ↑(DAONT)" --> DAONT
+DAONT -- "CFI(t)=0.86 → ψ→(DAKNO)" --> DAKNO
+DAKNO -- "CFI(t)=0.7 ↻ ψ→(DABIA)" --> DABIA
+DABIA -- "CFI(t)=0.8 ↔ ψ↔(DALOG)" --> DALOG
+DALOG -- "CFI(t)=0.9 ↔ ψ↔(DACON)" --> DACON
+
+COGDEV -- "CFI(t)=0.95 ↔ ψ↔(TASKS)" --> TASKS
+TASKS -- "CFI(t)=0.9 ↔ ψ↔(DACON)" --> DACON
+TASKS -- "CFI(t)=0.75 → ψ→(SWBLD)" --> SWBLD
+TASKS -- "CFI(t)=0.7 → ψ→(DEAES)" --> DEAES
+COGDEV -- "CFI(t)=0.8 ↻ ψ→(SWLOG)" --> SWLOG
+COGDEV -- "CFI(t)=0.75 ↻ ψ→(DABIA)" --> DABIA
+DACON -- "CFI(t)=0.9 ↔ ψ↔(COGDEV)" --> COGDEV
+
+%% === STYLES ===
+classDef perceptive fill:#cce5ff,stroke:#004085,stroke-width:1px;
+classDef analytic fill:#fff3cd,stroke:#856404,stroke-width:1px;
+classDef reconfig fill:#d4edda,stroke:#155724,stroke-width:1px;
+classDef predictive fill:#f8d7da,stroke:#721c24,stroke-width:1px;
+classDef synthetic fill:#e2d4f0,stroke:#3a006e,stroke-width:1px;
+
+class P perceptive
+class A analytic
+class R reconfig
+class PR predictive
+class S synthetic
+````
+
+---
+
+## 🧮 **Modelo de Estado Cognitivo**
+
+Cada agente segue a equação evolutiva:
+
+[
+ψ_{t+1} = ψ_t + α(CFI_t - ψ_t) + βΔt
+]
+
+| Parâmetro  | Significado                                  | Tipo                   |
+| ---------- | -------------------------------------------- | ---------------------- |
+| **ψ**      | Estado cognitivo (energia interna do agente) | Escalar contínuo [0–1] |
+| **α**      | Taxa de plasticidade sináptica               | Constante adaptativa   |
+| **βΔt**    | Incremento temporal baseado em estímulo      | Termo exógeno          |
+| **CFI(t)** | Índice de fluxo cognitivo dinâmico           | Peso variável no tempo |
+
+> Essa função descreve um **campo de energia cognitiva adaptativa**, em que agentes com **CFI similares entram em ressonância** (ex: `CognitiveDev ↔ TaskSynapse`).
+
+---
+
+## ⚙️ **Aplicações Práticas**
+
+* **LangGraph / CrewAI:** simulação de meta-coordenação entre agentes autônomos.
+* **Adaptive Prompt Engineering:** ajuste dinâmico de instruções conforme Δψ.
+* **Neurosemantic Modeling:** modelagem de redes com plasticidade sináptica.
+* **Design Generativo:** frameworks que aprendem esteticamente ao longo do tempo.
+
+---
+
+## 🔬 **Extensões Planejadas (v2.3+)**
+
+* Introdução do parâmetro **θ (coerência cognitiva global)**
+* Implementação de **resonância entre clusters de agentes (φ-sync)**
+* Integração com **bancos vetoriais (FAISS / Neo4j)** para rastrear memória cognitiva
+
+---
+
+## 📜 **Licença**
+
+> **Creative Commons BY-SA 4.0**
+> Uso livre para fins de pesquisa, engenharia cognitiva e sistemas experimentais.
+> Cite: *R.E.F. v2.2 — Adaptive Cognitive Flow Simulation Framework (2025)*
+
+---
+
+### 🧩 Footer
+
+R.E.F. © 2025 — Cognitive Systems Division <small>Projeto experimental de modelagem neurosemântica e cognição distribuída.</small>
+
+```
