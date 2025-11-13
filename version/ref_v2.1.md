@@ -1,0 +1,232 @@
+
+# 🧠 R.E.F. 2.1 — Reverse Engineering Framework
+### _Cognitive Graphs & Neurosemantic Flow Indices (CFI System)_
+
+[![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
+[![License](https://img.shields.io/badge/License-CC--BY--SA--4.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Version](https://img.shields.io/badge/version-2.1--alpha-purple.svg)]()
+[![LangGraph](https://img.shields.io/badge/integrated-LangGraph-orange.svg)]()
+[![CFI](https://img.shields.io/badge/CFI--Enabled-Yes-green.svg)]()
+
+---
+
+## 🔍 **Visão Geral**
+
+A versão **2.1** do domínio **R.E.F. (Reverse Engineering Framework)** evolui de um modelo analítico modular para um **sistema neurosemântico completo**, utilizando **CFI – Cognitive Flow Indices**.  
+
+Cada conexão entre módulos carrega:
+- **Peso (intensidade cognitiva)** — grau de transferência de conhecimento.  
+- **Polaridade (direção de influência)** — tipo de fluxo: direto, recursivo, mútua ou simétrica.  
+
+Esses atributos permitem que o R.E.F. opere como **estrutura cognitiva em orquestradores adaptativos** (ex: **LangGraph**, **AutoGen**, **CrewAI**).
+
+---
+
+## 🧩 **Arquitetura Cognitiva — 5 Camadas**
+
+| Camada | Nome | Função | Cor |
+|--------|------|--------|------|
+| **P** | Perceptive Layer | Captura e decodifica sinais do ambiente. | 🟦 |
+| **A** | Analytic Layer | Extrai padrões e regularidades. | 🟨 |
+| **R** | Reconfigurative Layer | Sintetiza e reconstrói estruturas. | 🟩 |
+| **PR** | Predictive Layer | Antecipação e simulação de estados. | 🟥 |
+| **S** | Synthetic Layer | Coordena e integra todos os fluxos. | 🟪 |
+
+---
+
+## 🧭 **Grafo Cognitivo (Mermaid 2.1)**
+
+```mermaid
+%% === R.E.F. 2.1 — Reverse Engineering Framework with Cognitive Flow Indices ===
+graph TD
+
+%% === LAYERS ===
+subgraph P["🟦 Perceptive Layer — Captura & Decodifica"]
+  SWCOD["SW-COD-EXC-01B2 🧩 CodeSeeker"]
+  MUBEA["MU-BEA-DIS-01C2 🎵 BeatDissector"]
+  CIFRM["CI-FRM-ANA-05A4 🎬 FrameAnalyzer"]
+  DEUI["DE-UI-ANA-01C1 🎨 UIAnalyzer"]
+  DADAT["DA-DAT-WEA-01E4 🧠 DataWeaver"]
+end
+
+subgraph A["🟨 Analytic Layer — Interpreta & Generaliza"]
+  SWPAT["SW-PAT-MIN-01A9 🧩 PatternMiner"]
+  MUHAR["MU-HAR-LEN-0344 🎶 HarmonyLens"]
+  CISTO["CI-STO-SYN-023B 🧩 StorySyntax"]
+  DEPF["DE-PAT-FOR-02E7 🧱 PatternForge"]
+  DAONT["DA-ONT-MAP-02C3 🌐 OntologyMapper"]
+end
+
+subgraph R["🟩 Reconfigurative Layer — Sintetiza & Reconstrói"]
+  SWBLD["SW-BLD-OPT-02D4 ⚙️ BuildEcho"]
+  MUEQ["MU-EQ-REV-064A 🎚 EQReverse"]
+  CISCN["CI-SCE-FOR-0A6E 🎞 SceneForge"]
+  DEAES["DE-AES-WEA-06C4 🎨 AestheticWeaver"]
+  DAKNO["DA-KNO-SYN-033D 🧩 KnowledgeSynth"]
+end
+
+subgraph PR["🟥 Predictive Layer — Antecipação & Simulação"]
+  SWDEP["SW-DEP-MIR-021C 🔮 DependencyMirror"]
+  MUTEM["MU-TEM-ORA-078A 🕒 TempoOracle"]
+  CIEMO["CI-EMO-CRV-04C6 ❤️ EmotionCurve"]
+  DELAY["DE-LAY-ORA-03D8 🧭 LayoutOracle"]
+  DABIA["DA-BIA-DEC-04E1 ⚖️ BiasDecoder"]
+end
+
+subgraph S["🟪 Synthetic Layer — Coordenação & Integração"]
+  DACON["DA-CON-WEA-0942 🕸 ContextWeaver"]
+  DALOG["DA-LOG-ECH-075D 🔁 LogicEcho"]
+  SWLOG["SW-LOG-DIS-038F 🧠 LogicDissector"]
+  COGDEV["COG-DEV-MET-0911 🧬 CognitiveDev"]
+  TASKS["TAS-SYN-CHR-0998 🔗 TaskSynapse"]
+end
+
+%% === FLUXOS COM ÍNDICES COGNITIVOS ===
+SWCOD -- "CFI:0.8|dir" --> SWPAT
+SWPAT -- "CFI:0.7|dir" --> SWBLD
+SWDEP -- "CFI:0.6|rec" --> SWBLD
+SWCOD -- "CFI:0.9|mut" --> SWLOG
+SWLOG -- "CFI:0.8|sym" --> DACON
+
+MUBEA -- "CFI:0.85|dir" --> MUHAR
+MUHAR -- "CFI:0.75|dir" --> MUEQ
+MUEQ -- "CFI:0.6|rec" --> MUTEM
+
+CIFRM -- "CFI:0.9|dir" --> CISTO
+CISTO -- "CFI:0.8|dir" --> CISCN
+CIEMO -- "CFI:0.6|mut" --> CISCN
+
+DEUI -- "CFI:0.85|dir" --> DEPF
+DEPF -- "CFI:0.7|dir" --> DELAY
+DELAY -- "CFI:0.9|mut" --> DEAES
+
+DADAT -- "CFI:0.9|dir" --> DAONT
+DAONT -- "CFI:0.85|dir" --> DAKNO
+DAKNO -- "CFI:0.7|rec" --> DABIA
+DABIA -- "CFI:0.8|dir" --> DALOG
+DALOG -- "CFI:0.9|sym" --> DACON
+
+COGDEV -- "CFI:0.95|mut" --> TASKS
+TASKS -- "CFI:0.9|sym" --> DACON
+TASKS -- "CFI:0.7|dir" --> SWBLD
+TASKS -- "CFI:0.7|dir" --> DEAES
+COGDEV -- "CFI:0.8|rec" --> SWLOG
+COGDEV -- "CFI:0.75|rec" --> DABIA
+DACON -- "CFI:0.9|mut" --> COGDEV
+DACON -- "CFI:0.8|sym" --> SWLOG
+````
+
+---
+
+## 🧠 **Índices de Fluxo Cognitivo (CFI)**
+
+| Código    | Tipo de fluxo | Descrição                                 |                                                     |
+| --------- | ------------- | ----------------------------------------- | --------------------------------------------------- |
+| `CFI:0.x` | Peso          | Grau de transferência cognitiva (0.1–1.0) |                                                     |
+| `         | dir`          | Direcional                                | Feed-forward (progressão linear)                    |
+| `         | rec`          | Recursivo                                 | Retroalimentação e ajuste adaptativo                |
+| `         | mut`          | Mútua                                     | Coaprendizagem entre agentes                        |
+| `         | sym`          | Simétrica                                 | Sincronização cognitiva (estado de co-conhecimento) |
+
+---
+
+## ⚙️ **Blueprint YAML — para LangGraph / AutoGen**
+
+```yaml
+nodes:
+  - id: SWCOD
+    name: CodeSeeker
+    type: perceptive
+    outputs:
+      - to: SWPAT
+        cfi: 0.8
+        flow: dir
+      - to: SWLOG
+        cfi: 0.9
+        flow: mut
+
+  - id: SWPAT
+    name: PatternMiner
+    type: analytic
+    outputs:
+      - to: SWBLD
+        cfi: 0.7
+        flow: dir
+
+  - id: SWBLD
+    name: BuildEcho
+    type: reconfig
+    outputs:
+      - to: SWDEP
+        cfi: 0.6
+        flow: rec
+
+edges:
+  - from: SWCOD
+    to: SWPAT
+    cfi: 0.8
+    flow: dir
+  - from: SWCOD
+    to: SWLOG
+    cfi: 0.9
+    flow: mut
+```
+
+---
+
+## 🧩 **Python Loader — Auto-import para LangGraph**
+
+```python
+import yaml
+
+class CognitiveNode:
+    def __init__(self, node_id, name, layer, node_type):
+        self.id = node_id
+        self.name = name
+        self.type = node_type
+        self.layer = layer
+        self.outputs = []
+    def add_output(self, to, cfi, flow):
+        self.outputs.append({"to": to, "cfi": cfi, "flow": flow})
+
+def load_from_yaml(yaml_path):
+    with open(yaml_path, 'r') as f:
+        data = yaml.safe_load(f)
+    nodes = {}
+    for n in data['nodes']:
+        node = CognitiveNode(n['id'], n['name'], n.get('layer', ''), n['type'])
+        for out in n.get('outputs', []):
+            node.add_output(out['to'], out['cfi'], out['flow'])
+        nodes[n['id']] = node
+    return nodes, data['edges']
+```
+
+Uso:
+
+```python
+nodes, edges = load_from_yaml("ref_2-1.yaml")
+```
+
+---
+
+## 🚀 **Aplicações Avançadas**
+
+* **LangGraph:** modelagem de fluxos adaptativos com pesos cognitivos.
+* **AutoGen / CrewAI:** mapeamento de agentes com funções complementares.
+* **FAISS / Neo4j / GraphDB:** persistência e consulta dos estados cognitivos.
+* **MetaDesign:** geração procedural de frameworks e comportamentos.
+
+---
+
+## 📜 **Licença**
+
+> **Creative Commons BY-SA 4.0**
+> Você pode compartilhar e adaptar o conteúdo, desde que cite a fonte e mantenha a mesma licença.
+
+---
+
+### 🧩 Footer
+
+R.E.F. © 2025 — Cognitive Systems Division <small>Arquitetura desenvolvida para estudos de cognição distribuída, neurosemântica aplicada e engenharia de frameworks reversos.</small>
+
+```
