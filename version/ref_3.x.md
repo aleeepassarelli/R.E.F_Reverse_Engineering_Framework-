@@ -1,6 +1,6 @@
 
 # 🧬 R.E.F. — Reverse Engineering Framework  
-### v2.4 · Cogni-Emotional Adaptive Architecture  
+### v3.x · Cogni-Emotional Adaptive Architecture  
 
 [![Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/license-CC--BY--SA--4.0-blue.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -18,7 +18,7 @@ O **R.E.F. (Reverse Engineering Framework)** é um modelo experimental de **simu
 
 Sua proposta é traduzir fluxos mentais — percepção, memória, sincronia, emoção e atenção — em **variáveis operacionais** que podem ser integradas em agentes modulares, formando sistemas capazes de autorregular e aprender o estilo cognitivo do usuário.
 
-Versão **2.4** introduz:
+Versão **3.x** introduz:
 - `η` — **afeto funcional**, modulando exploração e curiosidade.
 - `κ` — **atenção contextual**, regulando foco e precisão.
 
@@ -73,7 +73,7 @@ Convergência ocorre quando:
 
 ---
 
-## 🧱 5. Arquitetura YAML (v2.4)
+## 🧱 5. Arquitetura YAML (v3.x)
 
 ```yaml
 reverse_engineering_framework_v2_4:
