@@ -184,12 +184,15 @@ Você é livre para usar, modificar e redistribuir, desde que mantenha atribuiç
 
 ## 🧩 Versões
 
-| Versão | Descrição                                                       |
-| ------ | --------------------------------------------------------------- |
-| `v0.0` | Apresentação geral do framework (este documento)                |
-| `v1.x` | Documentação modular dos clusters                               |
-| `v2.x` | Integração com arquiteturas cognitivas (ELS, COG, ARCH, SEM)    |
-| `v3.x` | Implementação experimental multiagente e metacognição sintética |
+| Versão | Descrição                                                                                                     |
+| ------ | ------------------------------------------------------------------------------------------------------------- |
+| `v0.0` | Apresentação geral do framework (este documento).                                                             |
+| `v1.x` | Documentação modular dos clusters e arquitetura de agentes.                                                   |
+| `v2.0` | Introdução da camada cognitiva adaptativa (REF 2.0).                                                          |
+| `v2.2` | Evolução para simulação cognitiva adaptativa (autoajuste e plasticidade).                                     |
+| `v2.3` | Implementação de metamemória funcional e sincronização fásica entre agentes.                                  |
+| `v2.4` | Extensão cognitivo-emocional — integração dos estados afetivos como variáveis de homeostase (ψ, μ, φ, **ε**). |
+| `v3.x` | Implementação experimental multiagente, com metacognição sintética e rede auto-orquestrada.                   |
 
 ---
 
