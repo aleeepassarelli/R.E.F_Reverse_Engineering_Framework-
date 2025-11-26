@@ -136,12 +136,82 @@ O R.E.F. trata cada sistema analisado como uma linguagem a ser traduzida. Seja u
 
 -----
 
-### 📜 Licença
+## 👥 Créditos
 
-Distribuído sob **Creative Commons BY-SA 4.0**.
-Este é um framework aberto para a preservação e entendimento da complexidade tecnológica e artística.
+<table>
+<tr>
+<td align="center" width="160">
+  <img src="https://img.shields.io/badge/Aledev-%2300d9ff.svg?&style=for-the-badge&logoColor=white" alt="Aledev Badge"/><br>
+  <sub><b>🧑‍💻 Desenvolvedor Principal</b></sub><br>
+  <sub>Conceptualização & Arquitetura Original</sub><br><br>
+  <a href="https://github.com/aleeepassarelli">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white"/>
+  </a>
+  <a href="mailto:al.passarelli@gmail.com">
+    <img src="https://img.shields.io/badge/Email-00d9ff?style=flat-square&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://x.com/alpassarelli">
+    <img src="https://img.shields.io/badge/X%20(Twitter)-111111?style=flat-square&logo=x&logoColor=white"/>
+  </a>
+</td>
+<td>
+  <p align="left">
+  <strong>Reverse Engineering</strong> é resultado de uma arquitetura cognitiva desenvolvida para
+  integrar pensamento analítico e estético em um único modelo funcional.
+  <br><br>
+  <i>“Toda precisão técnica deve ter uma estética equivalente.”</i>
+  </p>
+</td>
+</tr>
+</table>
 
-**Maintainer:** Aledev (Hacker Semântico)
+---
+
+## 📜 Licença
+
+🪪 Este projeto é licenciado sob a **Licença MIT** — veja o arquivo [LICENSE](LICENSE) para detalhes.  
+<sub>© 2025 Aledev — Todos os direitos reservados nos componentes criativos.</sub>
+
+---
+### Autor
+
+[![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0009-0004-2060-1150) [Aledev](https://orcid.org/0009-0004-2060-1150)
+---
+
+## 🔗 Recursos & Navegação
+
+| 🔗 Área | 📁 Caminho / Link |
+|:-------:|:-----------------|
+| 📘 **Documentação Completa** | [`/docs`](docs/) |
+| 💡 **Exemplos Cognitivos** | [`/examples`](examples/) |
+| 🧩 **Discussões** | [GitHub Discussions](https://github.com/aleeepassarelli/R.E.F_Reverse_Engineering_Framework-/discussions) |
+| 🐞 **Issues** | [GitHub Issues](https://github.com/aleeepassarelli/R.E.F_Reverse_Engineering_Framework-/issues) |
+| 🧬 **DOI (Zenodo)** | [10.5281/zenodo.17506950](https://zenodo.org/records/17560950) |
+
+---
+
+<p align="center">
+  <sub>
+  Desenvolvido com 🧠 + 🜂 por <b>Aledev</b> • 
+  <a href="https://github.com/aleeepassarelli">GitHub</a> • 
+  <a href="mailto:al.passarelli@gmail.com">Email</a> • 
+  <a href="https://x.com/alpassarelli">Twitter</a>
+  </sub>
+</p>
+
+# **⭐ Se este framework foi útil, considere dar uma estrela no GitHub!**
+
+
+
+Minimalismo cirúrgico: cada palavra com propósito, cada métrica com evidência.
+
+
+---
+
+*Versão 0.1 | Outubro 2025 | Licenciado sob MIT*`
+
+---
+
 
 ```
 
