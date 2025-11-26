@@ -11,7 +11,7 @@
 
 ## 🔷 Visão Geral
 
-O **R.E.F. 1.0** não é apenas um conjunto de ferramentas de *decompiling*. É uma arquitetura semântica projetada para mapear, reconstruir e integrar padrões entre domínios técnicos e criativos.
+O **R.E.F.** não é apenas um conjunto de ferramentas de *decompiling*. É uma arquitetura semântica projetada para mapear, reconstruir e integrar padrões entre domínios técnicos e criativos.
 
 Enquanto a engenharia reversa tradicional foca em "como funciona", o R.E.F. foca em **"o que significa"**.
 
@@ -121,7 +121,7 @@ O repositório é estruturado para refletir a evolução da complexidade do sist
 
 > *"Engenharia reversa não é apenas decifrar estruturas — é reconstruir significados."*
 
-O R.E.F. 2.0 trata cada sistema analisado como uma linguagem a ser traduzida. Seja um binário compilado ou uma sinfonia de Beethoven, ambos possuem sintaxe, gramática e intenção. Nosso objetivo é extrair a **Intenção Original** a partir do artefato final.
+O R.E.F. trata cada sistema analisado como uma linguagem a ser traduzida. Seja um binário compilado ou uma sinfonia de Beethoven, ambos possuem sintaxe, gramática e intenção. Nosso objetivo é extrair a **Intenção Original** a partir do artefato final.
 
 -----
 
@@ -134,16 +134,4 @@ Este é um framework aberto para a preservação e entendimento da complexidade 
 
 ```
 
----
 
-### 💡 Minha Sugestão Técnica para este Repo
-
-Para tornar este framework "vivo" (além de apenas documentação), sugiro criar um script simples em Python na pasta `core/` chamado `sid_validator.py`.
-
-Esse script faria o seguinte:
-1.  Leria um arquivo YAML de definição de agente.
-2.  Validaria se o `SID` (Hash) bate com a estrutura do nome.
-3.  Validaria se o Input/Output segue o schema padrão.
-
-Isso conectaria o **R.E.F.** ao **Scientific Validation Hub** (validando a integridade dos agentes). O que acha?
-```
