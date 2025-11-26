@@ -182,7 +182,7 @@ O R.E.F. trata cada sistema analisado como uma linguagem a ser traduzida. Seja u
 
 | 🔗 Área | 📁 Caminho / Link |
 |:-------:|:-----------------|
-| 📘 **Documentação Completa** | [`/docs`](docs/) |
+| 📘 **Version** | [`/docs`](version/) |
 | 💡 **Exemplos Cognitivos** | [`/examples`](examples/) |
 | 🧩 **Discussões** | [GitHub Discussions](https://github.com/aleeepassarelli/R.E.F_Reverse_Engineering_Framework-/discussions) |
 | 🐞 **Issues** | [GitHub Issues](https://github.com/aleeepassarelli/R.E.F_Reverse_Engineering_Framework-/issues) |
