@@ -1,12 +1,12 @@
 # 🧠 R.E.F. — Reverse Engineering Framework
 
 ---
-# 🔬 Scientific Validation Hub
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Rigor](https://img.shields.io/badge/Validation_Rigor-1.0-blue)](https://doi.org/10.5281/zenodo.XXXXXXX)
 [![Environment](https://img.shields.io/badge/Environment-100%25_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
 
+----
 > **O Arsenal Definitivo para Validação Científica em IA e Data Science.**
 > Um hub modular de ferramentas ("Legos") para garantir rigor, reprodutibilidade e densidade semântica em projetos de pesquisa.
 ---
